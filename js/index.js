@@ -1,3 +1,5 @@
+
+
 const showMenu = (toggleId,navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
@@ -44,6 +46,8 @@ window.onscroll = () =>{
     const nav = document.getElementById('header')
     if(this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header ');
 }
+
+
 
 function log() {
   setTimeout(
