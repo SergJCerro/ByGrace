@@ -435,7 +435,7 @@ img {
 .footer__copy{
   padding-top: 3rem;
   font-size: var(--smaller-font-size);
-  color: var(--dark-color-light);
+  color: black;
   text-align: center;
 }
 .products__pages{
